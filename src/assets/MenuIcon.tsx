@@ -4,7 +4,7 @@ interface MenuIconProps {
   className?: string;
 }
 
-const MenuIcon: React.FC<MenuIconProps> = ({ className }) => {
+const MenuIcon: React.FC<MenuIconProps> =  () => {
   return (
     <svg 
       width="24" 

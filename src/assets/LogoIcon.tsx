@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LogoIcon = ({ width = 71, height = 40, ...props }) => (
+const LogoIcon = ({ ...props }) => (
   <svg width="71" height="40" viewBox="0 0 71 40" {...props} fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clipPath="url(#clip0_7010_1526)">
       <g clipPath="url(#clip1_7010_1526)">
