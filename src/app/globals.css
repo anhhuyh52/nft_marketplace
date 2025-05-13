@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --black-900: #131415;
+  --gray-800: #383A42;
+  --yellow-500: #FFC700;
+  --gray-light-500: #D2D2D2;
+  --text-color: #1F1F1F; 
+  --subdued-primary: #FFE8AB; 
+  --dark-yellow: #C79B12;
+  --background-neutral-normal: #1F2023; 
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-black-900: var(--black-900);
+  --color-gray-800: var(--gray-800);
+  --color-yellow-500: var(--yellow-500);
+  --color-gray-text: var(--gray-light-500);
+  --color-dark-text: var(--text-color);
+  --color-text: var(--text-color); 
+  --color-subdued-primary: var(--subdued-primary);
+  --color-highlight: var(--highlight-color); 
+  --color-dark-yellow: var(--dark-yellow); 
+  --color-neutral-normal: var(--background-neutral-normal);
+}
+
+
+
+.swiper-pagination-bullet {
+  width: 28px !important;
+  height: 4px !important;
+  border-radius: 20px !important; 
+  background: #FFFFFF !important; 
+  opacity: 0.6 !important;  
+}
+
+.swiper-pagination-bullet-active {
+  background: #FFC700 !important ;  /* Optional: active bullet color */
+  opacity: 1 !important;
+}
